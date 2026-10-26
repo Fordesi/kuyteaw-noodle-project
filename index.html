@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>โอ้โฮ! นิว ลูกชิ้นปลานายใบ้ | ก๋วยเตี๋ยวลูกชิ้นปลา และแฟรนไชส์ เริ่มต้น 49,000 บาท</title>
+<meta name="description" content="ก๋วยเตี๋ยวลูกชิ้นปลานายใบ้ สั่งผ่าน Lineman ได้ที่สาขาพระราม 5 และติวานนท์ และเปิดร้านแฟรนไชส์ได้โดยไม่ต้องมีประสบการณ์ เริ่มต้น 49,000 บาท">
+<meta name="theme-color" content="#C8281E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%9C%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600;800&family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#C8281E; --yellow:#FFC93C; --yellow2:#FFB627; --cream:#FFF6E5; --cream2:#FFE9B8;
+  --ink:#2B1810; --muted:#6B4A3A; --green:#3E8E2F; --noodle:#F3D98B;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;padding-bottom:96px;background:var(--cream);color:var(--ink);font:400 17px/1.7 Sarabun,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3,.btn,summary,.seg label,.tag,.marquee,.price{font-family:Kanit,Sarabun,sans-serif}
+h1,h2,h3{margin:0;line-height:1.3}
+h1{font-weight:800;font-size:clamp(2.1rem,9vw,3.8rem)}
+h2{font-weight:800;font-size:clamp(1.7rem,6.5vw,2.7rem)}
+h3{font-weight:600;font-size:1.3rem}
+p{margin:0}
+a{color:inherit}
+svg{display:block}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.franchise :focus-visible{outline-color:var(--yellow)}
+.wrap{width:100%;max-width:1100px;margin:0 auto;padding:0 16px}
+.sec{padding:56px 0}
+.kick{font-weight:700;color:var(--red);letter-spacing:.02em}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* placeholder chip: anything unconfirmed */
+.ph{display:inline-block;background:#FFE9A8;color:var(--ink);border:2px dashed var(--red);border-radius:8px;padding:0 .5em;font-size:.95em}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55em;min-height:52px;padding:.65em 1.5em;border:3px solid var(--ink);border-radius:999px;background:var(--yellow);color:var(--ink);font-weight:600;font-size:1.1rem;line-height:1.3;text-decoration:none;text-align:center;box-shadow:4px 4px 0 var(--ink);transition:transform .15s,box-shadow .15s}
+.btn:hover,.btn:focus-visible{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
+.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+.btn--red{background:var(--red);color:var(--cream)}
+.btn--block{display:flex;width:100%}
+.btn svg{width:1.3em;height:1.3em;flex:none}
+
+/* cards */
+.card{background:#fff;color:var(--ink);border:3px solid var(--ink);border-radius:24px;padding:20px;box-shadow:6px 6px 0 var(--sh,var(--ink));transition:transform .15s,box-shadow .15s}
+.card:hover,.card:active{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--sh,var(--ink))}
+
+/* hero */
+.hero{position:relative;background:var(--yellow);padding:36px 0 84px;overflow:hidden;isolation:isolate}
+.sun{position:absolute;z-index:-1;left:50%;top:50%;translate:-50% -50%;width:min(150vw,760px);aspect-ratio:1;border-radius:50%;background:repeating-conic-gradient(var(--yellow2) 0 9deg,transparent 9deg 18deg);-webkit-mask:radial-gradient(circle,#000 25%,transparent 68%);mask:radial-gradient(circle,#000 25%,transparent 68%);animation:spin 50s linear infinite}
+.hero__in{display:grid;gap:20px;grid-template-areas:"txt" "art" "doors"}
+.hero__txt{grid-area:txt;text-align:center}
+.hero__txt .kick{color:var(--ink)}
+.tag{display:inline-block;margin-top:14px;padding:.3em 1.1em;background:var(--red);color:var(--cream);border:3px solid var(--ink);border-radius:999px;box-shadow:4px 4px 0 var(--ink);font-weight:600;font-size:1.25rem;rotate:-3deg;animation:wobble 2.4s ease-in-out infinite}
+.hero__art{grid-area:art;position:relative;width:min(100%,360px);margin:0 auto}
+.mascot{position:absolute;right:-6px;top:-8px;width:34%;max-width:120px;animation:dance 1s ease-in-out infinite alternate}
+.doors{grid-area:doors;display:grid;gap:14px;max-width:460px;width:100%;margin:0 auto}
+.door{min-height:72px;flex-direction:column;gap:0;font-size:1.3rem}
+.door small{font-family:Sarabun,sans-serif;font-weight:700;font-size:.9rem}
+.wave{position:absolute;left:0;bottom:-1px;width:100%;height:56px}
+@media (min-width:820px){
+  .hero{padding:56px 0 100px}
+  .hero__in{grid-template-columns:1.1fr .9fr;grid-template-areas:"txt art" "doors art";align-items:center;gap:28px 40px}
+  .hero__txt{text-align:left}
+  .doors{margin:0}
+}
+
+/* bowl assembly: final state is the default, so no-animation = finished bowl */
+.drop{animation:drop .7s cubic-bezier(.3,1.5,.5,1) var(--d,0s) backwards}
+.steam{animation:steam 2.4s ease-out var(--d,3s) infinite backwards}
+
+/* marquee */
+.marquee{background:var(--red);color:var(--cream);overflow:hidden;border-block:3px solid var(--ink);font-weight:600;font-size:1.1rem}
+.marquee__track{display:flex;width:max-content;animation:scroll 28s linear infinite}
+.marquee__set{display:flex;flex:none;align-items:center;padding:10px 0}
+.marquee__set span{padding:0 18px;white-space:nowrap}
+.marquee__set span:nth-child(even){color:var(--yellow);padding:0}
+
+/* menu */
+.menu{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:16px;padding:6px 16px 24px;margin:20px -16px 0;-webkit-overflow-scrolling:touch}
+.menu .card{flex:0 0 min(72vw,250px);scroll-snap-align:start;padding:14px}
+.dish{aspect-ratio:1;overflow:hidden;background:var(--cream2);border:3px solid var(--ink);border-radius:16px;margin-bottom:12px}
+.dish img{display:block;width:100%;height:100%;object-fit:cover}
+.price{margin-top:6px;font-weight:600}
+
+/* order */
+.order{background:var(--cream2)}
+.grid2{display:grid;gap:22px;margin-top:24px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.card p{margin-top:6px}
+.card .btn{margin-top:16px}
+.fb{display:inline-block;margin-top:12px;font-weight:700;color:var(--red)}
+
+/* franchise */
+.franchise{--sh:var(--yellow);background:var(--ink);color:var(--cream);position:relative}
+.franchise .kick{color:var(--yellow)}
+.franchise h2 span{color:var(--yellow);white-space:nowrap}
+.lead{font-family:Kanit,sans-serif;font-weight:600;font-size:1.35rem;margin-top:8px}
+.promises{display:grid;gap:16px;margin-top:28px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.promises .card{padding:18px}
+.promises svg{width:48px;height:48px;margin-bottom:8px;fill:var(--yellow);stroke:var(--ink);stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+.promises p{font-size:.98rem;line-height:1.55}
+.shots{display:grid;gap:18px;margin-top:36px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.shots figure{margin:0}
+.shots img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border:3px solid var(--cream);border-radius:16px;box-shadow:5px 5px 0 var(--yellow)}
+.shots figcaption{margin-top:10px;font-weight:700}
+.pkgs{display:grid;gap:26px;margin-top:40px;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));align-items:start}
+.pkg{position:relative}
+.pkg h3{font-size:1.1rem;color:var(--red)}
+.pkg .big{font-family:Kanit,sans-serif;font-weight:800;font-size:2.6rem;line-height:1.2}
+.pkg .ph{margin-top:12px}
+.seg{display:grid;grid-template-columns:1fr 1fr;border:3px solid var(--ink);border-radius:999px;overflow:hidden;margin-top:14px;background:var(--cream)}
+.seg label{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:56px;padding:4px 6px;cursor:pointer;font-weight:600;font-size:.95rem;line-height:1.25;text-align:center}
+.seg label+label{border-left:3px solid var(--ink)}
+.seg small{font-family:Sarabun,sans-serif;font-weight:700;font-size:.8rem}
+#setA:checked~.seg label[for=setA],#setB:checked~.seg label[for=setB]{background:var(--red);color:var(--cream)}
+#setA:focus-visible~.seg label[for=setA],#setB:focus-visible~.seg label[for=setB]{outline:3px solid var(--yellow);outline-offset:-6px}
+.fig{margin-top:14px;background:var(--cream2);border:3px solid var(--ink);border-radius:16px;padding:10px}
+.fig svg{display:none;width:100%;height:auto}
+#setA:checked~.fig .fa,#setB:checked~.fig .fb2{display:block;animation:pop .45s cubic-bezier(.3,1.6,.5,1)}
+.stack{display:grid;gap:14px;margin-top:36px;max-width:760px}
+details{background:var(--cream);color:var(--ink);border:3px solid var(--ink);border-radius:16px;box-shadow:5px 5px 0 var(--sh,var(--ink))}
+summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:56px;padding:10px 18px;cursor:pointer;font-weight:600;font-size:1.1rem;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";flex:none;display:grid;place-items:center;width:32px;height:32px;border:3px solid var(--ink);border-radius:50%;background:var(--yellow);font-size:1.2rem;line-height:1}
+details[open] summary::after{content:"\2212"}
+details>div{padding:0 18px 16px}
+details ol{margin:0;padding-left:1.3em}
+details li{margin-top:6px}
+.reel{display:inline-block;margin-top:26px;color:var(--yellow);font-weight:700}
+
+/* reviews */
+.rev{aspect-ratio:1;display:grid;place-items:center;align-content:center;gap:10px;text-align:center;border-style:dashed}
+.rev svg{width:56px;fill:var(--yellow);stroke:var(--ink);stroke-width:3;stroke-linejoin:round}
+.grid3{display:grid;gap:22px;margin-top:24px;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+
+/* contact */
+.contact{background:var(--yellow);text-align:center}
+.contact .card{max-width:640px;margin:0 auto;padding:30px 20px}
+.contact h2{font-size:clamp(1.6rem,6vw,2.3rem)}
+.contact .btn{min-height:72px;font-size:1.4rem;margin-top:22px;animation:ring 1.8s ease-out infinite}
+.contact .btn--ghost{min-height:52px;font-size:1.05rem;margin-top:14px;background:#fff;animation:none}
+footer{padding:28px 0;text-align:center;background:var(--ink);color:var(--cream);font-size:.95rem}
+
+/* sticky call pill */
+.pill{position:fixed;z-index:50;left:50%;bottom:max(14px,env(safe-area-inset-bottom));translate:-50% 0;min-height:52px;padding:.5em 1.6em;border:3px solid var(--ink);border-radius:999px;background:var(--red);color:var(--cream);font:600 1.15rem/1.3 Kanit,sans-serif;text-decoration:none;display:inline-flex;align-items:center;gap:.5em;white-space:nowrap;box-shadow:4px 4px 0 var(--ink);animation:ring 1.8s ease-out infinite}
+.pill svg{width:1.3em;height:1.3em}
+
+/* motion */
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes wobble{0%,100%{rotate:-3deg}50%{rotate:2deg}}
+@keyframes dance{from{transform:rotate(-9deg) translateY(0)}to{transform:rotate(9deg) translateY(-8px)}}
+@keyframes drop{from{transform:translateY(-90px);opacity:0}55%{transform:translateY(8px);opacity:1}78%{transform:translateY(-4px)}to{transform:none;opacity:1}}
+@keyframes steam{0%{transform:translateY(8px);opacity:0}30%{opacity:.9}100%{transform:translateY(-26px);opacity:0}}
+@keyframes scroll{to{transform:translateX(-50%)}}
+@keyframes pop{from{transform:scale(.8);opacity:0}to{transform:none;opacity:1}}
+@keyframes ring{0%{box-shadow:0 0 0 0 rgba(200,40,30,.6),4px 4px 0 var(--ink)}100%{box-shadow:0 0 0 20px rgba(200,40,30,0),4px 4px 0 var(--ink)}}
+@keyframes rise{from{opacity:0;translate:0 44px}to{opacity:1;translate:0 0}}
+@supports (animation-timeline:view()){
+  .reveal{animation:rise linear both;animation-timeline:view();animation-range:entry 0% cover 28%}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .marquee__track{flex-wrap:wrap;justify-content:center;width:auto}
+  .marquee__set+.marquee__set{display:none}
+  .steam{opacity:.6}
+}
+</style>
+</head>
+<body>
+
+<!-- reusable illustrations -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></symbol>
+  </defs>
+</svg>
+
+<header class="hero" id="top">
+  <div class="sun" aria-hidden="true"></div>
+  <div class="wrap hero__in">
+    <div class="hero__txt">
+      <p class="kick">ก๋วยเตี๋ยวลูกชิ้นปลานายใบ้ ต้นตำรับ</p>
+      <h1>โอ้โฮ! นิว<br>ลูกชิ้นปลานายใบ้</h1>
+      <p class="tag">นายใบ้เต้นได้จริง ๆ</p>
+    </div>
+
+    <div class="hero__art">
+      <svg viewBox="0 0 320 280" role="img" aria-label="ภาพประกอบชามก๋วยเตี๋ยวลูกชิ้นปลา (ภาพตัวอย่าง)">
+        <g class="steam" style="--d:2.9s" fill="none" stroke-linecap="round">
+          <path d="M112 84q-14-16 0-32t0-32" stroke="#2B1810" stroke-width="11"/><path d="M112 84q-14-16 0-32t0-32" stroke="#FFF6E5" stroke-width="5"/>
+        </g>
+        <g class="steam" style="--d:3.4s" fill="none" stroke-linecap="round">
+          <path d="M160 74q-14-16 0-32t0-32" stroke="#2B1810" stroke-width="11"/><path d="M160 74q-14-16 0-32t0-32" stroke="#FFF6E5" stroke-width="5"/>
+        </g>
+        <g class="steam" style="--d:3.9s" fill="none" stroke-linecap="round">
+          <path d="M208 84q-14-16 0-32t0-32" stroke="#2B1810" stroke-width="11"/><path d="M208 84q-14-16 0-32t0-32" stroke="#FFF6E5" stroke-width="5"/>
+        </g>
+        <ellipse cx="160" cy="150" rx="120" ry="16" fill="#7A1F14" stroke="#2B1810" stroke-width="4"/>
+        <g class="drop" style="--d:.2s">
+          <path d="M68 152C74 96 110 90 160 90S246 96 252 152Z" fill="#F3D98B" stroke="#2B1810" stroke-width="4" stroke-linejoin="round"/>
+          <path d="M96 140q20-26 44-18M150 112q30-12 50 8M120 148q40-26 90-4" fill="none" stroke="#2B1810" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+        </g>
+        <g fill="#FFF1D6" stroke="#2B1810" stroke-width="4">
+          <circle class="drop" style="--d:.8s" cx="118" cy="126" r="20"/>
+          <circle class="drop" style="--d:1s" cx="158" cy="112" r="20"/>
+          <circle class="drop" style="--d:1.2s" cx="198" cy="126" r="20"/>
+          <circle class="drop" style="--d:1.4s" cx="160" cy="140" r="18"/>
+        </g>
+        <g class="drop" style="--d:1.8s" fill="#3E8E2F" stroke="#2B1810" stroke-width="4" stroke-linejoin="round">
+          <path d="M96 118Q70 82 98 66Q124 88 108 124Z"/>
+        </g>
+        <g class="drop" style="--d:2s" fill="#3E8E2F" stroke="#2B1810" stroke-width="4" stroke-linejoin="round">
+          <path d="M214 112Q250 84 238 62Q206 72 200 118Z"/>
+        </g>
+        <g class="drop" style="--d:2.3s" stroke="#2B1810" stroke-width="6" stroke-linecap="round">
+          <path d="M262 36L184 132"/><path d="M280 50L198 140"/>
+        </g>
+        <path d="M40 150A120 16 0 0 0 280 150Q280 252 160 252Q40 252 40 150Z" fill="#C8281E" stroke="#2B1810" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M56 196Q160 226 264 196" fill="none" stroke="#FFC93C" stroke-width="7" stroke-linecap="round"/>
+        <rect x="116" y="248" width="88" height="14" rx="7" fill="#2B1810"/>
+      </svg>
+      <div class="mascot" role="img" aria-label="ตัวการ์ตูนลูกชิ้นปลากำลังเต้น">
+        <svg viewBox="0 0 100 110">
+          <circle cx="50" cy="55" r="46" fill="#C8281E" stroke="#2B1810" stroke-width="4"/>
+          <path d="M26 72L14 54M74 72L88 50" stroke="#2B1810" stroke-width="5" stroke-linecap="round" fill="none"/>
+          <path d="M40 90L34 104M60 90L68 102" stroke="#2B1810" stroke-width="5" stroke-linecap="round" fill="none"/>
+          <circle cx="50" cy="52" r="26" fill="#FFF1D6" stroke="#2B1810" stroke-width="4"/>
+          <circle cx="41" cy="48" r="3.5" fill="#2B1810"/><circle cx="59" cy="48" r="3.5" fill="#2B1810"/>
+          <path d="M40 60Q50 72 60 60" fill="none" stroke="#2B1810" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="doors">
+      <a class="btn btn--red door" href="#order">หิวแล้ว สั่งเลย</a>
+      <a class="btn door" href="#franchise">อยากมีร้านเป็นของตัวเอง<small>เริ่มต้น 49,000 บาท</small></a>
+    </div>
+  </div>
+  <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40C180 90 360 0 540 40S900 80 1080 40S1300 10 1440 40V80H0Z" fill="#C8281E"/></svg>
+</header>
+
+<div class="marquee" aria-label="จุดเด่นของแฟรนไชส์นายใบ้: ไม่ต้องมีประสบการณ์ มีเครื่องหมายการค้า มีการอบรม มีคำปรึกษาต่อเนื่อง มีสื่อการตลาด เริ่มต้น 49,000 บาท">
+  <div class="marquee__track" aria-hidden="true">
+    <div class="marquee__set"><span>ไม่ต้องมีประสบการณ์</span><span>•</span><span>มีเครื่องหมายการค้า</span><span>•</span><span>มีการอบรม</span><span>•</span><span>มีคำปรึกษาต่อเนื่อง</span><span>•</span><span>มีสื่อการตลาด</span><span>•</span><span>เริ่มต้น 49,000 บาท</span><span>•</span></div>
+    <div class="marquee__set"><span>ไม่ต้องมีประสบการณ์</span><span>•</span><span>มีเครื่องหมายการค้า</span><span>•</span><span>มีการอบรม</span><span>•</span><span>มีคำปรึกษาต่อเนื่อง</span><span>•</span><span>มีสื่อการตลาด</span><span>•</span><span>เริ่มต้น 49,000 บาท</span><span>•</span></div>
+  </div>
+</div>
+
+<main>
+<section class="sec" id="menu">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="kick">เมนู</p>
+      <h2>เมนูเด็ดของนายใบ้</h2>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="menu" tabindex="0" role="region" aria-label="รายการเมนู เลื่อนดูไปทางขวา">
+      <article class="card">
+        <div class="dish"><img src="pics/menu-graphics/643434035_1401948728394394_3138264997917199442_n.jpg" alt="ชามเย็นตาโฟลูกชิ้นปลา ใส่ผักบุ้งและเครื่องเคียง" width="600" height="600" loading="lazy" decoding="async"></div>
+        <h3>เย็นตาโฟ</h3><p class="price"><span class="ph">[ราคา รอยืนยัน]</span></p>
+      </article>
+      <article class="card">
+        <div class="dish"><img src="pics/food/655859736_1419901796599087_8300980168954293854_n.jpg" alt="ก๋วยเตี๋ยวน้ำใสใส่ลูกชิ้นปลา เกี๊ยวปลา และหนังปลาทอด" width="600" height="600" loading="lazy" decoding="async" style="object-position:50% 70%"></div>
+        <h3>ก๋วยเตี๋ยวน้ำ</h3><p class="price"><span class="ph">[ราคา รอยืนยัน]</span></p>
+      </article>
+      <article class="card">
+        <div class="dish"><img src="pics/food/847866386_1593915412531057_6967696968204859196_n.jpg" alt="บะหมี่แห้งใส่ลูกชิ้นปลา เกี๊ยวปลา และหนังปลาทอด" width="600" height="600" loading="lazy" decoding="async" style="object-position:50% 72%"></div>
+        <h3>ก๋วยเตี๋ยวแห้ง</h3><p class="price"><span class="ph">[ราคา รอยืนยัน]</span></p>
+      </article>
+      <article class="card">
+        <div class="dish"><img src="pics/menu-graphics/783856898_1547612527161346_2728609093930677417_n.jpg" alt="ก๋วยเตี๋ยวต้มยำใส่ลูกชิ้นปลา ถั่วป่น และพริกป่น" width="600" height="600" loading="lazy" decoding="async"></div>
+        <h3>ต้มยำ</h3><p class="price"><span class="ph">[ราคา รอยืนยัน]</span></p>
+      </article>
+      <article class="card">
+        <div class="dish"><img src="pics/food/473414323_1084574206798516_4555412936678527592_n.jpg" alt="ลูกชิ้นปลาลวกจิ้ม จัดจานพร้อมน้ำจิ้ม" width="600" height="600" loading="lazy" decoding="async" style="transform:scale(1.15);transform-origin:50% 100%"></div>
+        <h3>ลูกชิ้นลวกจิ้ม</h3><p class="price"><span class="ph">[ราคา รอยืนยัน]</span></p>
+      </article>
+      <article class="card">
+        <div class="dish"><img src="pics/products/846137810_1592380532684545_8861759350813223884_n.jpg" alt="หนังปลาทอดกรอบ ทั้งแบบจานและแบบถุง" width="600" height="600" loading="lazy" decoding="async" style="object-position:50% 62%"></div>
+        <h3>หนังปลาทอดกรอบ</h3><p class="price"><span class="ph">[ราคา รอยืนยัน]</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec order" id="order">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="kick">สั่งอาหาร</p>
+      <h2>หิวแล้ว สั่งเลย</h2>
+    </div>
+    <div class="grid2">
+      <article class="card reveal">
+        <h3>สาขาพระราม 5</h3>
+        <p><span class="ph">[ที่อยู่และเวลาเปิด-ปิด รอยืนยัน]</span></p>
+        <a class="btn btn--red btn--block" href="#order" data-todo="lineman-rama5">สั่งผ่าน Lineman</a>
+        <p><span class="ph">[ลิงก์ Lineman รอยืนยัน]</span></p>
+        <a class="fb" href="https://www.facebook.com/newnaibai" target="_blank" rel="noopener">ดูเพจ Facebook</a>
+      </article>
+      <article class="card reveal">
+        <h3>สาขาติวานนท์</h3>
+        <p><span class="ph">[ที่อยู่และเวลาเปิด-ปิด รอยืนยัน]</span></p>
+        <a class="btn btn--red btn--block" href="#order" data-todo="lineman-tiwanon">สั่งผ่าน Lineman</a>
+        <p><span class="ph">[ลิงก์ Lineman รอยืนยัน]</span></p>
+        <a class="fb" href="https://www.facebook.com/newnaibai" target="_blank" rel="noopener">ดูเพจ Facebook</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec franchise" id="franchise">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="kick">แฟรนไชส์</p>
+      <h2>เป็นเจ้าของร้านก๋วยเตี๋ยว <span>เริ่มต้น ฿49,000</span></h2>
+      <p class="lead">ไม่ต้องมีประสบการณ์ก็เริ่มได้</p>
+    </div>
+
+    <div class="promises">
+      <article class="card reveal">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20"/><text x="24" y="31" text-anchor="middle" font-family="Kanit,sans-serif" font-weight="800" font-size="17" fill="#2B1810" stroke="none">TM</text></svg>
+        <h3>เครื่องหมายการค้า</h3>
+        <p>สิทธิ์ใช้เครื่องหมายการค้านายใบ้ (ภายใต้เงื่อนไขบริษัท)</p>
+      </article>
+      <article class="card reveal">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 32h20v9H14z"/><path d="M13 32C6 30 6 17 15 17c2-8 16-9 19-1 8 0 9 13 1 16z"/></svg>
+        <h3>อบรมสอนงาน</h3>
+        <p>สิทธิ์เรียนทำก๋วยเตี๋ยวนายใบ้</p>
+      </article>
+      <article class="card reveal">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 8h34v24H26l-9 9v-9H7z"/><circle cx="17" cy="20" r="2" fill="#2B1810"/><circle cx="24" cy="20" r="2" fill="#2B1810"/><circle cx="31" cy="20" r="2" fill="#2B1810"/></svg>
+        <h3>คำปรึกษาต่อเนื่อง</h3>
+        <p>ให้คำปรึกษาฟรีตลอดระยะเวลาการขาย</p>
+      </article>
+      <article class="card reveal">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 19l24-11v32L7 29z"/><path d="M31 17c7 2 9 12 0 14" fill="none"/><path d="M12 30l3 11h6l-3-9" /></svg>
+        <h3>สื่อการตลาด</h3>
+        <p>สื่อและกิจกรรมส่งเสริมการตลาดผ่านโซเชียลของนายใบ้</p>
+      </article>
+    </div>
+
+    <div class="shots">
+      <figure class="reveal"><img src="pics/shop-and-stall/487080178_1136190674970202_668647162130590387_n.jpg" alt="หน้าร้านก๋วยเตี๋ยวลูกชิ้นปลานายใบ้ ริมถนน" width="800" height="600" loading="lazy" decoding="async"><figcaption>หน้าร้าน</figcaption></figure>
+      <figure class="reveal"><img src="pics/kitchen-and-process/803505089_1564002958855636_406677103181743753_n.jpg" alt="ตักลูกชิ้นปลาจากหม้อต้มซุป" width="800" height="600" loading="lazy" decoding="async" style="object-position:50% 58%"><figcaption>หม้อต้มซุป</figcaption></figure>
+      <figure class="reveal"><img src="pics/kitchen-and-process/793142050_1557973786125220_7980176233398072935_n.jpg" alt="ก๋วยเตี๋ยวใส่กล่องเรียงบนโต๊ะ พร้อมส่ง" width="800" height="600" loading="lazy" decoding="async" style="object-position:50% 68%"><figcaption>ก๋วยเตี๋ยวใส่กล่องพร้อมส่ง</figcaption></figure>
+    </div>
+
+    <div class="pkgs">
+      <article class="card pkg reveal">
+        <h3>แพ็กเกจ</h3>
+        <p class="big">฿49,000</p>
+        <p><span class="ph">[รายการในแพ็กเกจ รอยืนยัน]</span></p>
+        <a class="btn btn--red btn--block" href="tel:0953296494"><svg aria-hidden="true"><use href="#phone"/></svg>โทรสอบถามแพ็กเกจนี้</a>
+      </article>
+
+      <article class="card pkg reveal">
+        <input class="vh" type="radio" name="set" id="setA" checked>
+        <input class="vh" type="radio" name="set" id="setB">
+        <h3>แพ็กเกจ</h3>
+        <p class="big">฿79,000</p>
+        <div class="seg">
+          <label for="setA">Set A · รถเข็น<small>(cart)</small></label>
+          <label for="setB">Set B · ป้ายไฟกล่อง<small>(lightbox sign)</small></label>
+        </div>
+        <div class="fig">
+          <svg class="fa" viewBox="0 0 260 180" role="img" aria-label="ภาพประกอบรถเข็นขายก๋วยเตี๋ยว (ภาพตัวอย่าง)">
+            <g stroke="#2B1810" stroke-width="3" stroke-linejoin="round">
+              <rect x="20" y="8" width="220" height="26" rx="4" fill="#FFF6E5"/>
+              <path d="M14 34h232l-14 14H28z" fill="#C8281E"/>
+              <rect x="36" y="52" width="110" height="52" fill="#FFF6E5" opacity=".9"/>
+              <path d="M36 78h110M91 52v52" fill="none"/>
+              <rect x="156" y="62" width="62" height="42" rx="8" fill="#9AA0A6"/>
+              <rect x="22" y="104" width="216" height="38" rx="4" fill="#C8281E"/>
+              <path d="M22 110L8 122M238 110l14 12" fill="none" stroke-width="5"/>
+            </g>
+            <text x="130" y="27" text-anchor="middle" font-size="13" font-weight="600" fill="#2B1810">[โลโก้ร้าน]</text>
+            <g fill="#2B1810" stroke="#2B1810" stroke-width="3"><circle cx="64" cy="154" r="16" fill="#FFC93C"/><circle cx="196" cy="154" r="16" fill="#FFC93C"/><circle cx="64" cy="154" r="3"/><circle cx="196" cy="154" r="3"/></g>
+          </svg>
+          <svg class="fb2" viewBox="0 0 260 180" role="img" aria-label="ภาพประกอบป้ายไฟกล่องและสติกเกอร์ติดผนัง (ภาพตัวอย่าง)">
+            <g stroke="#2B1810" stroke-width="3" stroke-linejoin="round">
+              <rect x="8" y="8" width="244" height="164" rx="8" fill="#FFF6E5"/>
+              <rect x="24" y="22" width="212" height="52" rx="8" fill="#fff"/>
+              <path d="M30 28h200M30 68h200" fill="none" stroke="#FFC93C" stroke-width="5"/>
+              <rect x="50" y="92" width="160" height="66" rx="6" fill="#C8281E"/>
+              <path d="M66 112h128M66 128h100M66 144h116" fill="none" stroke="#FFF6E5" stroke-width="4" stroke-linecap="round"/>
+            </g>
+            <text x="130" y="54" text-anchor="middle" font-size="16" font-weight="600" fill="#2B1810">[โลโก้ร้าน]</text>
+          </svg>
+        </div>
+        <p><span class="ph">[รายการในแพ็กเกจ และผู้ซื้อได้ Set A, Set B หรือทั้งสองชุด รอยืนยัน]</span></p>
+        <a class="btn btn--red btn--block" href="tel:0953296494"><svg aria-hidden="true"><use href="#phone"/></svg>โทรสอบถามแพ็กเกจนี้</a>
+      </article>
+    </div>
+
+    <div class="stack">
+      <details class="reveal">
+        <summary>เงื่อนไขการเพิกถอนสิทธิ์</summary>
+        <div>
+          <ol>
+            <li><span class="ph">[เงื่อนไขข้อ 1 รอยืนยัน]</span></li>
+            <li><span class="ph">[เงื่อนไขข้อ 2 รอยืนยัน]</span></li>
+            <li><span class="ph">[เงื่อนไขข้อ 3 รอยืนยัน]</span></li>
+          </ol>
+        </div>
+      </details>
+      <details class="reveal">
+        <summary>ไม่มีประสบการณ์ทำร้านอาหาร เริ่มได้ไหม?</summary>
+        <div><p>ได้ ไม่ต้องมีประสบการณ์ก็เริ่มได้ และมีสิทธิ์เรียนทำก๋วยเตี๋ยวกับทีมนายใบ้</p></div>
+      </details>
+      <details class="reveal">
+        <summary>มีค่าใช้จ่ายรายเดือนหรือค่าส่วนแบ่งไหม?</summary>
+        <div><p><span class="ph">[ค่าใช้จ่ายรายเดือน / ส่วนแบ่ง รอยืนยัน]</span> โทรถามคุณพอได้เลย</p></div>
+      </details>
+      <details class="reveal">
+        <summary>สัญญากี่ปี และมีกฎเรื่องพื้นที่ไหม?</summary>
+        <div><p><span class="ph">[ระยะเวลาสัญญาและเงื่อนไขพื้นที่ รอยืนยัน]</span> โทรถามคุณพอได้เลย</p></div>
+      </details>
+    </div>
+
+    <a class="reel" href="https://www.facebook.com/reel/2654080398274831" target="_blank" rel="noopener">ดูคลิปแพ็กเกจแฟรนไชส์บน Facebook</a>
+  </div>
+</section>
+
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div class="reveal">
+      <p class="kick">รีวิว</p>
+      <h2>ลูกค้าพูดถึงเรา</h2>
+    </div>
+    <div class="grid3">
+      <article class="card rev reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 8h34v24H26l-9 9v-9H7z"/></svg><span class="ph">[ภาพรีวิวจริงจากลูกค้า]</span></article>
+      <article class="card rev reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 8h34v24H26l-9 9v-9H7z"/></svg><span class="ph">[ภาพรีวิวจริงจากลูกค้า]</span></article>
+      <article class="card rev reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 8h34v24H26l-9 9v-9H7z"/></svg><span class="ph">[ภาพรีวิวจริงจากลูกค้า]</span></article>
+    </div>
+  </div>
+</section>
+
+<section class="sec contact" id="contact">
+  <div class="wrap">
+    <div class="card reveal">
+      <h2>สนใจเปิดร้านกับเรา<br>คุยกับคุณพอได้เลย</h2>
+      <a class="btn btn--red btn--block" href="tel:0953296494"><svg aria-hidden="true"><use href="#phone"/></svg>โทร 095-329-6494</a>
+      <a class="btn btn--block btn--ghost" href="https://m.me/newnaibai" target="_blank" rel="noopener">ทักแชท Messenger</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>โอ้โฮ! นิว ลูกชิ้นปลานายใบ้ · นายใบ้เต้นได้จริง ๆ</footer>
+
+<a class="pill" href="tel:0953296494" aria-label="โทรหาคุณพอ 095-329-6494"><svg aria-hidden="true"><use href="#phone"/></svg>โทรหาคุณพอ</a>
+
+</body>
+</html>
